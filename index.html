@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Recipes</title>
+</head>
+<body>
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Lunch</a>
+            <a href="#">Dinner</a>
+            <a href="#">Baking</a>
+            <a href="#">Etc</a>
+          </div>
+          <span style="font-size:55px;cursor:pointer;color: white;" onclick="openNav()">&#9776;</span>
+        <h1>My Recipes</h1>
+    </header>
+    <main>
+        <div>
+            <a href="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS189E9369Q1LWoeT1tcb1YLJ5vFrOwqU6E1w&usqp=CAU" alt="Asparagus Carbonara">
+                <h2>Recipe 1</h2>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS189E9369Q1LWoeT1tcb1YLJ5vFrOwqU6E1w&usqp=CAU" alt="Arrabiata">
+                <h2>Recipe 2</h2>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS189E9369Q1LWoeT1tcb1YLJ5vFrOwqU6E1w&usqp=CAU" alt="Saltibarsciai">
+                <h2>Recipe 3</h2>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS189E9369Q1LWoeT1tcb1YLJ5vFrOwqU6E1w&usqp=CAU" alt="PLikyti Sausainiai">
+                <h2>Recipe 4</h2>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS189E9369Q1LWoeT1tcb1YLJ5vFrOwqU6E1w&usqp=CAU" alt="Recipe 5">
+                <h2>Recipe 5</h2>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS189E9369Q1LWoeT1tcb1YLJ5vFrOwqU6E1w&usqp=CAU" alt="Recipe 6">
+                <h2>Recipe 6</h2>
+            </a> 
+        </div>
+    </main>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+</body>
+</html>
